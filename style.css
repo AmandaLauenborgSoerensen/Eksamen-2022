@@ -1,0 +1,736 @@
+/* ----- Fonts ----- */ 
+@font-face {
+    font-family: Dihapus;
+    src: url("Font/dDihapus404.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Neon;
+    src: url("Font/NEON____.TTF");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Lemonmilk;
+    src: url("Font/LemonMilk.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Cool;
+    src: url("Font/CoolveticaCondensedRg-Regular-400.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ----- Forside ----- */ 
+.desktopbilleder {
+    width: 100%;
+    float: left;
+}
+
+.desktopbilleder img {
+    width: 100%;
+    height: 44rem;
+    float: left;
+    object-fit: cover;
+}
+
+
+#cocktail3desktop {
+    width: 100%;
+    object-fit: cover;
+}
+
+#cocktailwrap {
+    float: left;
+    width: 65%;
+    height: 650px;
+    position: relative;
+    border-top: 2px solid #dad1a2;
+    margin-top: 0px;
+    background-image: url("Main billeder/cocktail3.jpeg");
+    background-repeat: no-repeat;
+}
+
+#cocktail3mobil {
+    display: none;
+}
+
+#paintmobil {
+    display: none;
+}
+
+
+#reklamedesktop {
+    float: left;
+    height: 650px;
+    width: 35%;
+    background-image: url("Paint.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95% 100%;
+    
+}
+
+#reklamedesktop p {
+    float: left;
+    text-align: center;
+    width: 100%;
+    z-index: 1000; 
+
+    font-size: 43px;
+    font-family: 'Lemonmilk';
+    text-shadow: #ffa400 1px 1px 10px;
+    line-height: 60px;
+    color: #1c1c1c;
+    margin-top: 130px;
+}
+
+#reklamemobil p {
+    display: none;
+}
+
+#bodyforside {
+    background-color: #f7ecd6;
+}
+
+
+
+/* ----- Sommerkonk side ----- */
+#sommermain {
+    float: left;
+    width: 30%;
+}
+
+#sommermain img {
+    float: left;
+    display: block;
+    height: 700px;
+    width: 101%;
+    border-right: 2px solid #dad1a2;
+    margin-top: 0;
+}
+
+#sommerskriftwrap {
+    float: left;
+    width: 70%;
+}
+
+#sommerskrift {
+    float: left;
+    font-size: 24px;
+    font-family: 'Cool';
+    color: #1c1c1c;
+    text-shadow: #ffd982 1px 1px 6px;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 95%;
+}
+
+#sommerskriftover {
+    font-size: 50px;
+}
+
+#video {
+    border: 5px solid #dad1a2;
+    margin-left: 245px;
+    margin-top: 13px; 
+}
+
+#bodysommer {
+    background-color: white;
+}
+
+
+
+/* ----- Anbefalinger side ----- */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#bodyanbefal {
+    background-color: #f7ecd6;
+}
+
+
+
+/* ----- Nyheder side ----- */
+    #vinder {
+        float: left;
+        overflow: hidden;
+    }
+
+    #vinder img {
+    float: left;
+    width: 650px;
+    height: 250px;
+    margin-left: 360px;
+    margin-top: 40px;
+    overflow: hidden;
+  }
+
+    #selfie img {
+    float: left;
+    width: 650px;
+    height: 250px;
+    margin-left: 360px;
+    overflow: hidden;
+  }
+
+    #nyeopskrifter img {
+    float: left;
+    width: 650px;
+    height: 250px;
+    margin-left: 360px;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+
+  #bodynyheder {
+    background-image: url("Main billeder/baggrund.jpg");
+    background-size: 110%;
+  }
+
+
+
+/* ----- FAQ side ----- */
+  #bodyfaq {
+    background-image: url("Main billeder/baggrund.jpg");
+    background-size: 110%;
+  }
+
+  #lovgivning img {
+    float: left;
+    width: 650px;
+    height: 290px;
+    margin-left: 260px;
+    margin-top: 30px;
+  }
+
+  #maerkesager img {
+    float: left;
+    width: 650px;
+    height: 290px;
+    margin-left: 540px;
+    margin-top: 10px;
+  }
+
+  #kontaktos img {
+    float: left;
+    width: 650px;
+    height: 290px;
+    margin-left: 260px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+
+
+/* ----- Burger menu ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Lemonmilk', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.9rem 1.5rem;
+    background-color: #FFF4C0;
+    color: #252525;
+    border-top: 2px solid #dad1a2;
+    border-bottom: 2px solid #dad1a2;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #252525;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 14rem;
+}
+
+.nav-link{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #252525;
+    font-family: 'Dihapus';
+}
+
+.nav-link:hover{
+    color: #ffa400;
+}
+
+.nav-logo {
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #ffa400;
+}
+
+
+
+/* ----- Footer ----- */
+footer {
+    background-color: #FFF4C0;
+    height: 10rem;
+    width: 100%;
+    float: left;
+    border-top: 2px solid #dad1a2;
+    font-family: 'Dihapus';
+    color: #252525;
+}
+
+.SoMe {
+    float: left;
+    width: 33%;
+}
+
+.SoMe img {
+    height: 35px;
+    width: 35px;
+    margin-top: 30px;
+    margin-left: 18px;
+}
+
+.kontaktinfo {
+    float: left;
+    width: 33%;
+}
+
+.kontaktinfo p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.faq {
+    float: left;
+    width: 33%;
+}
+
+.faq p {
+    font-size: 40px;
+    text-align: right;
+    margin: 27px;
+    color: black;
+}
+
+
+/* ----- Lykkehjul ----- */
+ #lykkehjuldesktop {
+    display: block;
+    position: absolute;
+    right: 1%;
+    bottom: 2%;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    }
+
+    #lykkehjuldesktop img {
+    width: 270px;
+    height: 270px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+       
+    overflow: visible;
+    }
+    @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+    @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+    @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+    
+
+
+
+
+    
+
+/* ----------------------------------- Media ----------------------------------- */
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        top: 0; 
+        left: -100%;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 10px;
+        text-align: left;
+        background-color: rgba(255, 255, 255, 0.8);
+        transition: 0.3s;
+        z-index: 100;
+    }
+
+    header {
+        height: 236px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .desktopbilleder {
+        display: none;
+    }
+
+    /* ----- Burger ----- */
+    .navbar {
+        background: none;
+        border-bottom: none;
+    }
+
+    .nav-menu.active {
+            left: 0;
+        }
+
+    .nav-item {
+        margin: 2.5rem 0;
+        text-align: left;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        z-index: 200;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+        }    
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+
+
+    /* ----- Forside ----- */
+    #paintmobil {
+        display: block;
+        float: left;
+        height: 200px;
+        width: 100%;
+        z-index: -100;
+        border-top: 2px solid #dad1a2;
+    }
+
+    #cocktailwrap {
+        display: block;
+        width: 100%;
+        height: 285px;
+        background-size: 100%;
+        border-top: 2px solid #dad1a2;
+        border-bottom: 1px solid #dad1a2;
+    }
+
+    #reklamemobil {
+        float: left;
+    }
+
+    #reklamemobil p {
+        float: left;
+        text-align: center;
+        display: block;
+
+        font-size: 35px;
+        font-family: 'Lemonmilk';
+        text-shadow: #ffa400 1px 1px 10px;
+        color: #1c1c1c;
+
+        margin-top: 50px;
+        position: absolute;
+    }
+
+    #reklamedesktop {
+        display: none;
+    }
+
+    #paintdesktop {
+        width: 50%;
+        display: none;
+    }
+
+    #cocktail3desktop {
+        display: none;
+    }
+    
+
+
+    /* ---- Sommerkonk underside ---- */
+    #sommermain {
+        display: none;
+    }
+
+    #sommerskriftwrap {
+        float: left;
+        margin-left: 10px;
+        width: auto;
+        margin-top:65px;
+    }
+
+    #sommerskrift {
+        float: left;
+        font-size: 30px;
+        margin-left: 10px;
+
+    }
+
+    #sommerskriftover {
+        font-size: 60px;
+        line-height: 60px;
+        width: 380px;
+        margin-left: -10px;
+        margin-top: -60px;
+    }
+
+    #video {
+        margin-left: 7px;
+        margin-bottom: 20px;
+        width: 400px;
+        height: 250px;
+    }
+
+
+
+    /* ---- Anbefalinger underside ---- */
+    .column {
+        width: 100%;
+      }
+
+
+    
+    /* ----- Nyheder side ----- */
+    #vinder {
+        float: left;
+        overflow: hidden;
+        margin-top: -60px;
+    }
+
+    #vinder img {
+        float: left;
+        width: 410px;
+        height: 180px;
+        margin-left: 2px;
+        margin-top: 0px;
+  }
+
+    #selfie img {
+        float: left;
+        width: 410px;
+        height: 180px;
+        margin-left: 2px;
+        overflow: hidden;
+  }
+
+    #nyeopskrifter img {
+        float: left;
+        width: 410px;
+        height: 180px;
+        margin-left: 2px;
+        margin-bottom: 30px;
+        overflow: hidden;
+  }
+
+  /* ----- FAQ side ----- */
+    
+    main {
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+  
+    #bodyfaq {
+    background-image: none;
+  }
+
+    #bg-farve {
+    background-color: #f7ecd6; 
+    float: left;
+    width:100%;
+    height: 630px;
+    }
+
+    .fixermain {
+        float: left;
+        width: 100%;
+        margin-top:200px;
+    }
+    .fixermaintwo {
+        float: left;
+        width: 100%;
+        margin-top:100px;
+        height: 300px;
+    }
+
+    #lovgivning {
+    float: left;
+    overflow: hidden;
+    margin-top: -230px;
+}
+
+    #lovgivning img {
+    float: left;
+    width: 320px;
+    height: 160px;
+    margin-left: 40px;
+    margin-top: 90px;
+  }
+
+    #maerkesager img {
+    float: left;
+    width: 320px;
+    height: 160px;
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+
+    #kontaktos img {
+    float: left;
+    width: 320px;
+    height: 160px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+
+
+
+    /* --- Mobil headers --- */
+    #forsidemobil {
+        background-image: url("Headers/Header-forside-mobil.jpg");
+    }
+
+    #sommermobil {
+        background-image: url("Headers/sommerkonk-header-mobil.jpg");
+        overflow: hidden;
+    }
+
+    #anbefalmobil {
+        background-image: url("Headers/anbefalinger-header-mobil.jpg"); 
+        overflow: hidden;
+    }
+
+    #nyhedmobil {
+        background-image: url("Headers/nyheder-header-mobil.jpg"); 
+        overflow: hidden;
+        background-position:center;
+    }
+
+    #faqmobil {
+        background-image: url("Headers/Header-faq-mobil.jpg"); 
+        overflow: hidden;
+    }
+
+
+    /* ----- Lykkehjul----- */
+    #lykkehjuldesktop img {
+        width: 170px;
+        height: 170px;
+    }
+
+    #lykkehjuldesktop {
+        right: 1%;
+        bottom: 3%;
+    }
+
+
+
+    /* ----- Footer ----- */
+    footer {
+    background-color: #FFF4C0;
+    height: 14rem;
+    width: 100%;
+    float: left;
+    border-top: 2px solid #dad1a2;
+    font-family: 'Dihapus';
+    color: #252525;
+    }
+
+    .SoMe {
+    float: left;
+    width: 100%;
+    }
+
+    .SoMe img {
+    height: 35px;
+    width: 35px;
+    margin-top: 15px;
+    margin-left: 55px;
+    }
+
+    .kontaktinfo {
+    float: left;
+    width: 100%;
+    }
+
+    .kontaktinfo p {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 12px;
+    }
+
+    .faq {
+    float: left;
+    width: 33%;
+    display: none;
+    }
+
+    .faq p {
+    font-size: 40px;
+    text-align: right;
+    margin: 27px;
+    color: black;
+    }
+}
